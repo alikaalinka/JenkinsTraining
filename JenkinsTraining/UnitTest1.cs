@@ -51,14 +51,14 @@ namespace JenkinsTraining
             rep.Flush();
         }
 
-        [Test]
-        public void Test2()
-        {
-            test = rep.CreateTest("TEst 2");
-            test.Log(Status.Info, "Start TEst 2");
-            Assert.AreEqual("Say Hi", ProgramJ.Hi());
-            rep.Flush();
-        }
+        //[Test]
+        //public void Test2()
+        //{
+        //    test = rep.CreateTest("TEst 2");
+        //    test.Log(Status.Info, "Start TEst 2");
+        //    Assert.AreEqual("Say Hi", ProgramJ.Hi());
+        //    rep.Flush();
+        //}
 
     }
 }
